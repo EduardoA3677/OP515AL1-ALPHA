@@ -18,8 +18,8 @@ on:
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
   DEVICE: OP515AL1
-  DT_LINK: https://github.com/Spector0/Device_Oneplus_Oscar_TWRP -b Alpha_1
-  DT_PATH: device/oneplus/oscar
+  DT_LINK: https://github.com/EduardoA3677/OP515AL1-ALPHA -b android-12.1
+  DT_PATH: device/oneplus/OP515AL1
   CHAT_ID: ${{ secrets.TEST_CHAT_ID }}
   BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
   TARGET: bootimage
