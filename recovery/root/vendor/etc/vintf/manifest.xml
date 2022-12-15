@@ -185,6 +185,46 @@
         <fqname>@2.3::IUceService/com.qualcomm.qti.uceservice</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.oplus.hardware.biometrics.face</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IBiometricsFace</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IBiometricsFace/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@2.1::IBiometricsFingerprint/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.biometrics.fingerprintpay</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IFingerprintPay</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IFingerprintPay/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.cryptoeng</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ICryptoeng</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::ICryptoeng/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
         <version>2.2</version>
@@ -283,6 +323,16 @@
             <instance>dspservice</instance>
         </interface>
         <fqname>@1.0::IDspService/dspservice</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.eid</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IEid</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IEid/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.embmssl</name>
