@@ -1,6 +1,6 @@
 # initial TWRP tree for OnePlus Nord N20 5G
 aka holi
-aka 
+aka OP515AL1
 
 Installation:
 Note: Backup stock boot image and keep it in your platform tools folder
